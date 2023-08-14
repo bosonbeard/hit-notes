@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhiokldmyhpq2"
+path="res://.godot/imported/Ilkay Sencan & Dynoro - Rockstar.mp3-02e34225477dbd21d0bd7da77286eb09.mp3str"
+
+[deps]
+
+source_file="res://art/Ilkay Sencan & Dynoro - Rockstar.mp3"
+dest_files=["res://.godot/imported/Ilkay Sencan & Dynoro - Rockstar.mp3-02e34225477dbd21d0bd7da77286eb09.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

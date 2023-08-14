@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvg6tohk734bm"]
+
+[sub_resource type="AudioStreamGenerator" id="AudioStreamGenerator_ksco2"]
+buffer_length = 6.0
+
+[node name="Main" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamGenerator_ksco2")
+autoplay = true
+max_polyphony = 4
