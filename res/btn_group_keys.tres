@@ -1,0 +1,6 @@
+[gd_resource type="ButtonGroup" format=3 uid="uid://dbpho7g2gur77"]
+
+[resource]
+resource_local_to_scene = false
+resource_name = "keys"
+allow_unpress = true

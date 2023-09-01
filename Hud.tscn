@@ -1,0 +1,175 @@
+[gd_scene load_steps=7 format=3 uid="uid://pyujmnpnkgl3"]
+
+[ext_resource type="ButtonGroup" uid="uid://dbpho7g2gur77" path="res://res/btn_group_keys.tres" id="1_bm6a8"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_e1u7m"]
+thickness = 3
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_ye6s4"]
+color = Color(0.521569, 0.509804, 0.521569, 1)
+thickness = 3
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_usmom"]
+color = Color(0.00784314, 0.00784314, 0.00784314, 1)
+thickness = 3
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_b2wau"]
+thickness = 3
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_6fv1r"]
+thickness = 3
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Keys" type="Node" parent="."]
+
+[node name="C" type="Button" parent="Keys"]
+custom_minimum_size = Vector2(0, 38)
+offset_top = 223.0
+offset_right = 60.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "C"
+
+[node name="D" type="Button" parent="Keys"]
+offset_left = 75.0
+offset_top = 223.0
+offset_right = 135.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "D
+"
+
+[node name="E" type="Button" parent="Keys"]
+offset_left = 150.0
+offset_top = 223.0
+offset_right = 210.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "E
+"
+
+[node name="F" type="Button" parent="Keys"]
+offset_left = 225.0
+offset_top = 223.0
+offset_right = 285.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "F
+"
+
+[node name="G" type="Button" parent="Keys"]
+offset_left = 299.0
+offset_top = 223.0
+offset_right = 359.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "G
+"
+
+[node name="A" type="Button" parent="Keys"]
+offset_left = 375.0
+offset_top = 223.0
+offset_right = 435.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "A"
+
+[node name="B" type="Button" parent="Keys"]
+offset_left = 452.0
+offset_top = 223.0
+offset_right = 512.0
+offset_bottom = 286.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_focus_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.521569, 0.509804, 0.521569, 1)
+theme_override_colors/font_disabled_color = Color(0.647059, 0.635294, 0.647059, 1)
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxLine_e1u7m")
+theme_override_styles/hover = SubResource("StyleBoxLine_ye6s4")
+theme_override_styles/pressed = SubResource("StyleBoxLine_usmom")
+theme_override_styles/disabled = SubResource("StyleBoxLine_b2wau")
+theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
+toggle_mode = true
+button_group = ExtResource("1_bm6a8")
+text = "B"

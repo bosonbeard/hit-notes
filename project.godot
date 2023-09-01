@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="Hit-notes"
-run/main_scene="res://main.tscn"
+run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=512
+window/size/viewport_height=288
+window/stretch/mode="viewport"
 
 [rendering]
 
