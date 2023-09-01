@@ -1,6 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cpxm77fumkodv"]
+[gd_scene load_steps=7 format=3 uid="uid://pyujmnpnkgl3"]
 
-[ext_resource type="ButtonGroup" path="res://res/btn_group_keys.tres" id="1_bm6a8"]
+[ext_resource type="ButtonGroup" uid="uid://dbpho7g2gur77" path="res://res/btn_group_keys.tres" id="1_bm6a8"]
 
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_e1u7m"]
 thickness = 3
