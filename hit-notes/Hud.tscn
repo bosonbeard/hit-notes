@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://pyujmnpnkgl3"]
+[gd_scene load_steps=8 format=3 uid="uid://pyujmnpnkgl3"]
 
 [ext_resource type="ButtonGroup" uid="uid://dbpho7g2gur77" path="res://res/btn_group_keys.tres" id="1_bm6a8"]
+[ext_resource type="Script" path="res://Hud.gd" id="1_if6la"]
 
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_e1u7m"]
 thickness = 3
@@ -20,6 +21,7 @@ thickness = 3
 thickness = 3
 
 [node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_if6la")
 
 [node name="Keys" type="Node" parent="."]
 
@@ -173,3 +175,54 @@ theme_override_styles/focus = SubResource("StyleBoxLine_6fv1r")
 toggle_mode = true
 button_group = ExtResource("1_bm6a8")
 text = "B"
+
+[node name="StartScreen" type="Node2D" parent="."]
+position = Vector2(16, 49)
+
+[node name="SelectSongLabel" type="Label" parent="StartScreen"]
+offset_right = 87.0
+offset_bottom = 26.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Select song"
+
+[node name="Title" type="Label" parent="StartScreen"]
+offset_left = -1.0
+offset_top = -39.0
+offset_right = 104.0
+offset_bottom = -13.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Hit the notes!"
+
+[node name="StartButton" type="Button" parent="StartScreen"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 397.0
+offset_top = 31.0
+offset_right = 443.0
+offset_bottom = 62.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+text = "Start"
+
+[node name="SelectSong" type="OptionButton" parent="StartScreen"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.0
+offset_top = 31.0
+offset_right = 358.0
+offset_bottom = 62.0
+grow_horizontal = 2
+
+[node name="Message" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 127.0
+offset_right = 495.0
+offset_bottom = 179.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Press the key that corresponds to the note.
+You need to correctly select all the notes of the song."

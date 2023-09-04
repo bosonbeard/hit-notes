@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://dvg6tohk734bm"]
+[gd_scene load_steps=8 format=3 uid="uid://dvg6tohk734bm"]
 
 [ext_resource type="PackedScene" uid="uid://pyujmnpnkgl3" path="res://Hud.tscn" id="1_htc0o"]
 [ext_resource type="Texture2D" uid="uid://cdw7a15we23pu" path="res://art/notes_hint.png" id="2_iuo24"]
 [ext_resource type="Texture2D" uid="uid://bh6moo8hb5bbm" path="res://art/notes_no_hint.png" id="3_0tfqs"]
+[ext_resource type="PackedScene" uid="uid://cqxt0ytvw4jno" path="res://Note.tscn" id="4_k68p5"]
 
 [sub_resource type="AudioStreamGenerator" id="AudioStreamGenerator_ksco2"]
 buffer_length = 6.0
@@ -36,6 +37,7 @@ autoplay = true
 max_polyphony = 4
 
 [node name="HUD" parent="." instance=ExtResource("1_htc0o")]
+visible = false
 
 [node name="background" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(0, 288)
@@ -51,11 +53,14 @@ sprite_frames = SubResource("SpriteFrames_65hte")
 animation = &"notes_hint"
 
 [node name="Note" type="Label" parent="."]
+visible = false
 offset_left = 329.0
-offset_top = 124.0
+offset_top = 37.0
 offset_right = 369.0
-offset_bottom = 223.0
+offset_bottom = 136.0
 theme_override_colors/font_color = Color(0.25098, 0.572549, 0.607843, 1)
 theme_override_font_sizes/font_size = 72
 text = "♩
 "
+
+[node name="Note2" parent="." instance=ExtResource("4_k68p5")]
