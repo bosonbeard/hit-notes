@@ -1,2 +1,1 @@
-# hit-notes
-for Hit the notes godot game
+Repo for my small godot games
